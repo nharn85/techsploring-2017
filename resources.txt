@@ -1,0 +1,27 @@
+Web Safe Colors and Colour Pickers
+- http://htmlcolorcodes.com/
+- http://paletton.com/
+
+
+Common Tags
+- <tagname>Content goes here...</tagname>
+	- ex <p>My first paragraph.</p>
+- more info here https://www.w3schools.com/html/default.asp
+- HTML5 tag information https://www.w3schools.com/html/html5_new_elements.asp
+
+body		-> holds viewable the website content
+header	-> (HTML5) defines the header of a document
+main		-> (HTML5) defines the main content of a document
+footer	-> (HTML5) defines the footer of a document
+nav 		-> (HTML5) defines navigation links in the document
+div			-> division or section of a document
+h1-h6		-> headings in varying sizes (largest to smallest)
+b 			-> bold text
+strong 	-> important text (similar to the b tag)
+i       -> italic text
+em      -> emphasized text (similar to italic tag)
+p 		  -> paragraph (holds paragraphs of text)
+a 			-> anchor (holds links)
+ul			-> unordered list (See list-style-type ex. circle, square, disc)
+ol			-> ordered list (See list-style-type ex. 1,2,3 - a,b,c)
+li			-> list item
