@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Headers</title>
+	<style type="text/css">
+		a {
+			display: block;
+		}
+
+		.this-is-a-class {
+			color: deeppink;
+		}
+
+		#unique-id-3 {
+			color: blue;
+		}
+
+		.lobster {
+			font-family: 'Lobster', cursive;
+			font-size: 16px;
+		}
+
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+<body>
+	<!-- Use these for titles based on importance -->
+	<!-- H1 being the highest importance -->
+	<h1>This is an H1 tag.</h1>
+	<h2>This is an H2 tag.</h2>
+	<h3>This is an H3 tag.</h3>
+	<h4>This is an H4 tag.</h4>
+	<h5>This is an H5 tag.</h5>
+	<h6>This is an H6 tag.</h6>
+
+	<!-- Images -->
+	<!-- Size should be controlled in your CSS, this is just an example -->
+	<img src="https://static.pexels.com/photos/265072/pexels-photo-265072.jpeg" height="300">
+
+	<p>This image will link to <a href="http://www.pexels.com">Pexels.com</a></p>
+	<a href="https://www.pexels.com/photo/business-chair-coffee-computer-265072/">
+		<img src="https://static.pexels.com/photos/265072/pexels-photo-265072.jpeg" height="300">
+	</a>
+
+	<br>
+
+	<!-- This is a paragraph tag -->
+	<p>This is normal text.</p>
+
+	<!-- Anchor/Link Tag -->
+	<a href="http://google.com">This is an anchor tag.</a>
+
+	<!-- Text Formating -->
+	<br> <!-- Inserts a line break -->
+	<strong>This is bold/strong text.</strong>
+	<br>
+	<em>This is italic/emphisized text.</em>
+
+	<!-- Lists -->
+	<!-- Ordered Lists -->
+	<ol>
+		<li>List item 1</li>
+		<li>List item 2</li>
+		<li>List item 3</li>
+	</ol>
+
+	<!-- Unordered Lists -->
+	<ul>
+		<li>List item 1</li>
+		<li>List item 2</li>
+		<li>List item 3</li>
+	</ul>
+
+	<!-- In CSS you can use a class name to target multiple elements -->
+	<div class="this-is-a-class">Class Example</div>
+	<div class="this-is-a-class">Class Example</div>
+
+	<!-- In CSS you can use an ID name to target a single element -->
+	<div id="unique-id-1">ID Example 1</div>
+	<div id="unique-id-2">ID Example 2</div>
+
+	<!-- Horizontal Rule - Makes line horizontally -->
+	<hr>
+
+	<!-- You can also combine them! -->
+	<div id="unique-id-3" class="this-is-a-class">ID Example 3</div>
+	<div id="unique-id-4" class="this-is-a-class">ID Example 4</div>
+	<br>
+
+	<!-- Advanced -->
+	<!-- ** Fonts **
+
+- Copy the link tag and paste in your .html file
+	- These need to be in between the <head></head> tags
+- To make your font work, copy the font-family snippet and paste that in your .css file in between the { }
+	- eg. h1 { font-family: 'Fredericka the Great', cursive; } -->
+
+<h3>Fonts</h3>
+<a href="http://google.com/fonts" target="_blank">Google Fonts</a>
+<ul>
+	<li>Free to use</li>
+	<li>Don't use too many... you will slow your site down!</li>
+</ul>
+
+<p>This line needs to be between your HEAD tags at the top of index.html</p>
+<code>&lt;link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"&gt;</code>
+<!-- Copy the line below -->
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+<p>This goes in your CSS file, on the element you want to use it on.</p>
+<code>font-family: 'Lobster', cursive;</code>
+
+<p class="lobster">This is my new 'Lobster' font!</p>
+
+<hr>
+
+	<!-- Project specific -->
+	<h2>Project Examples</h2>
+
+	<!-- Author Info -->
+	<div class="author">by Your Name Here</div>
+
+	<!-- Photo Credit -->
+	<!-- While using someone elses photo, you want to give them credit -->
+	<!-- This is where you could give credit and a link back to their work -->
+	<div class="photo-credit">Photo <a href="https://www.flickr.com/photos/bojoergensen/5670758544/" target="_blank">BoJay</a>
+
+	<!-- About Section-->
+	<!-- This section has a title using the H2 tag, a paragraph, and a link tag -->
+	 <div class="bio">
+		<h2>Student Name Intro</h2>
+		<p>I interviewed Student Name about her favourite activity, Ultimate! She is in grade 9 at School Name, and loves Favourite Class. Her favourite website is <a href="http://google.com" target="_blank">Website Name</a>.</p>
+	</div>
+
+	<!-- All other questions should have: -->
+	<!-- Title -->
+	<!-- Paragraph tags for text -->
+	<!-- Optional additions per question: -->
+	<!-- List (ordered or unordered) -->
+	<!-- Image -->
+
+	<!-- Example: Title, paragraph for text, unordered list, and in image-->
+	<h2>Why I like Ultimate</h2>
+	<p>It's a fast-paced, low-cost sport that emphasizes sportsmanship through Spirit of the Game. It’s easy to learn, requires little equipment and can easily be played in any open space. There is a strong sense of community at all levels.</p>
+	<ul>
+		<li>
+			Non-contact sport.
+		</li>
+		<li>
+			It doesn't matter how tall you are to be a good player.
+		</li>
+		<li>
+			You can have mixed teams of guys and girls.
+		</li>
+		<li>
+			You get to play outdoors, in fields or on a beach
+		</li>
+		<li>
+			You can use your skills to play fetch with your four legged friend.
+		</li>
+	</ul>
+	<img class="image-right" src="assets/images/dog.jpg" width="300">
+
+</body>
+</html>
