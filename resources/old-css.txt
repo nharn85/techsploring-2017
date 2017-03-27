@@ -1,13 +1,8 @@
-/**
-* @Todo: Update with more info on how/ where to use additional Google Fonts like these
-*/
+<!-- To use a google font, uncomment the link and paste within the HEAD tags in your HTML -->
+<!-- and use the style recommended under the link in your CSS element -->
 
-/**
-* @Todo: Update CSS below in index.html and finished.html so the girls see what they can add, or change
- * Will pull out of existing CSS
-*/
+<!-- Examples in snippet-examples.html, lines 21 and 27 -->
 
-<!--To use a google font, uncomment the link, and use the style recommended under the link -->
 
 <!-- Source Sans Pro -->
 <!-- <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>-->

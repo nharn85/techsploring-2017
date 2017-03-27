@@ -7,7 +7,6 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Fredericka the Great', cursive;
 
-
 */
 
 body {
@@ -275,16 +274,127 @@ nav a:hover {
   margin-right: 2em;
   float: left;
   border-radius: 50%;
-  background-image: url('../images/Artboard-63x.png');
   background-position: 50% 50%;
   background-size: 132px;
   background-repeat: no-repeat;
 }
 
+.avatar.avatar01 {
+  background-image: url('../images/avatars/avatar01.png');
+}
+
+.avatar.avatar02 {
+  background-image: url('../images/avatars/avatar02.png');
+}
+
+.avatar.avatar03 {
+  background-image: url('../images/avatars/avatar03.png');
+}
+
+.avatar.avatar04 {
+  background-image: url('../images/avatars/avatar04.png');
+}
+
+.avatar.avatar05 {
+  background-image: url('../images/avatars/avatar05.png');
+}
+
+.avatar.avatar06 {
+  background-image: url('../images/avatars/avatar06.png');
+}
+
+.avatar.avatar07 {
+  background-image: url('../images/avatars/avatar07.png');
+}
+
+.avatar.avatar08 {
+  background-image: url('../images/avatars/avatar08.png');
+}
+
+.avatar.avatar09 {
+  background-image: url('../images/avatars/avatar09.png');
+}
+
+.avatar.avatar10 {
+  background-image: url('../images/avatars/avatar10.png');
+}
+
+.avatar.avatar11 {
+  background-image: url('../images/avatars/avatar11.png');
+}
+
+.avatar.avatar12 {
+  background-image: url('../images/avatars/avatar12.png');
+}
+
+.avatar.avatar13 {
+  background-image: url('../images/avatars/avatar13.png');
+}
+
+.avatar.avatar14 {
+  background-image: url('../images/avatars/avatar14.png');
+}
+
+.avatar.avatar15 {
+  background-image: url('../images/avatars/avatar15.png');
+}
+
+.avatar.avatar16 {
+  background-image: url('../images/avatars/avatar16.png');
+}
+
+.avatar.avatar17 {
+  background-image: url('../images/avatars/avatar17.png');
+}
+
+.avatar.avatar18 {
+  background-image: url('../images/avatars/avatar18.png');
+}
+
+.avatar.avatar19 {
+  background-image: url('../images/avatars/avatar19.png');
+}
+
+.avatar.avatar20 {
+  background-image: url('../images/avatars/avatar20.png');
+}
+
+.avatar.avatar21 {
+  background-image: url('../images/avatars/avatar21.png');
+}
+
+.avatar.avatar22 {
+  background-image: url('../images/avatars/avatar22.png');
+}
+
+.avatar.avatar23 {
+  background-image: url('../images/avatars/avatar23.png');
+}
+
+.avatar.avatar24 {
+  background-image: url('../images/avatars/avatar24.png');
+}
+
+.avatar.avatar25 {
+  background-image: url('../images/avatars/avatar25.png');
+}
+
+.avatar.avatar26 {
+  background-image: url('../images/avatars/avatar26.png');
+}
+
+.avatar.avatar27 {
+  background-image: url('../images/avatars/avatar27.png');
+}
+
+.avatar.avatar28 {
+  background-image: url('../images/avatars/avatar28.png');
+}
+
+
 .theme-text {
   display: inline-block;
   padding: 12px 12px 8px;
-  background-color: #0f9cd3;
 }
 
 .utility-page-wrap {
@@ -399,6 +509,8 @@ nav a:hover {
   }
   .hero-title-wrap {
     width: 70%;
+    margin-left: 0;
+    padding: 0;
   }
   .main {
     margin-top: 6em;

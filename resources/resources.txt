@@ -9,6 +9,8 @@ Common Tags
 - more info here https://www.w3schools.com/html/default.asp
 - HTML5 tag information https://www.w3schools.com/html/html5_new_elements.asp
 
+/* This is a comment */
+<!-- This is also a comment -->
 body		-> holds viewable the website content
 header	-> (HTML5) defines the header of a document
 main		-> (HTML5) defines the main content of a document
