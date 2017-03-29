@@ -2,6 +2,11 @@ Web Safe Colors and Colour Pickers
 - http://htmlcolorcodes.com/
 - http://paletton.com/
 
+Free Stock Photos
+- https://www.pexels.com/
+
+General Learning
+- https://www.codeschool.com
 
 Common Tags
 - <tagname>Content goes here...</tagname>
